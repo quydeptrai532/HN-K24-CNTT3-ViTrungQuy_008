@@ -28,7 +28,7 @@ public class Cau2Phan2 {
                     }
                     if(count>maxCount){
                         maxCount=count;
-                        soXuatHienNhieuNhat=i;
+                        soXuatHienNhieuNhat=arr[i];
                     }
                 }
             }

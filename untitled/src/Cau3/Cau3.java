@@ -7,7 +7,7 @@ public class Cau3 {
         int n;
         System.out.println("Moi ban nhap vao so phan tu cua mang (0<n<100)");
         n= sc.nextInt();
-        if(n<0||n>100){
+        if(n<=0||n>100){
             System.out.println("So luong phan tu nhap vao khong hop le");
         }
         else {
@@ -23,7 +23,7 @@ public class Cau3 {
             int num1=0,num2=0;
             boolean found=false;
             for(int i=0;i<n;i++){
-                for(int j=i+1;j<n-1;j++){
+                for(int j=i+1;j<n;j++){
                     if((arr[i]+arr[j])==k){
                         num1=arr[i];
                         num2=arr[j];

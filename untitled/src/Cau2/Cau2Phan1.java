@@ -7,7 +7,7 @@ public class Cau2Phan1 {
         int n;
         System.out.println("Moi ban nhap vao so phan tu cua mang (0<n<100)");
         n= sc.nextInt();
-        if(n<0||n>100){
+        if(n<=0||n>100){
             System.out.println("So luong phan tu nhap vao khong hop le");
         }
         else {
