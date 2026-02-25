@@ -7,7 +7,7 @@ public class Cau1Phan2 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Moi ban nhap vao chuoi can kiem tra:");
         String string=sc.nextLine();
-        if(string.length()==0||string==null){
+        if(string==null||string.length()==0){
             System.out.println("Chuoi nhap vao khong hop le");
         }
         else {
